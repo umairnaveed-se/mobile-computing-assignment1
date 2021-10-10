@@ -35,6 +35,9 @@ body {
     #contents{
         text-align: center;
     }
+    .swiper-slide{
+        min-height: auto;
+    }
 }
 @media screen and (min-width: 600px) {
     .picture {
