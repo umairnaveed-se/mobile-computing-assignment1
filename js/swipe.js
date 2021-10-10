@@ -1,17 +1,17 @@
 var swiper = new Swiper(".swiper-container", {
-    freeMode: true,
+    freeMode: false,
     effect: "coverflow",
     direction: "horizontal",
     cssMode: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    mousewheel: {
+    /* mousewheel: {
         releaseOnEdges: true
-    },
-    /* navigation:{
+    }, */
+    navigation:{
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    }, */
+    },
     coverflowEffect: {
       rotate: 20,
       stretch: 0,

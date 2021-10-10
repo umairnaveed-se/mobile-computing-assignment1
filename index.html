@@ -22,7 +22,7 @@
             <!-- Slides -->
             <div class="swiper-slide">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="detail">
                             <h3><b>Create repository on GitHub</b></h3>
                         </div>
@@ -32,7 +32,7 @@
                             <li>Then create repository</li>
                         </ul>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-9">
                         <div class="picture">
                             <figure><img src="./images/create repo.png" ></figure>
                             
@@ -42,7 +42,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="detail">
                             <h3><b>Initialize Git</b></h3>
                         </div>
@@ -51,7 +51,7 @@
                             <li>This will make a .git folder in the current directory</li>
                         </ul>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-9">
                         <div class="picture">
                             <img src="./images/init.png" >
                         </div>
@@ -60,7 +60,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="detail">
                             <h3><b>Create file</b></h3>
                         </div>
@@ -69,23 +69,116 @@
                             <li>And save</li>
                         </ul>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-9">
                         <div class="picture">
                             <img src="./images/create file.png" >
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- If we need pagination -->
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="detail">
+                            <h3><b>Git Status</b></h3>
+                        </div>
+                        <ul>
+                            <li>You can use <code>git status</code> to check which files are up to date in your local repository</li>
+                            <li>Files in red are those which are not up to date while files in green are</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="picture">
+                            <img src="./images/status.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="detail">
+                            <h3><b>Add file(s)</b></h3>
+                        </div>
+                        <ul>
+                            <li>After making a file use <code>git add "filename"</code> to add file to local git repository</li>
+                            <li>You can use <code>git add .</code> to add all the files/folders in current folder to local repository</li>
+                            <li>This will only add the files which have been edited or are new</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="picture">
+                            <img src="./images/add.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="detail">
+                            <h3><b>Git Commit</b></h3>
+                        </div>
+                        <ul>
+                            <li>After adding files to local repository you can use <code>git commit -m "message"</code>to commit the files locally</li>
+                            <li>The "message here usually describes what changes have been made in this commit"</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="picture">
+                            <img src="./images/commit.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="detail">
+                            <h3><b>Add origin</b></h3>
+                        </div>
+                        <ul>
+                            <li>To add origin use <code>git remote add origin [URL]</code></li>
+                            <li>The git remote command lets you create, view, and delete connections to other repositories.</li>
+                            <li>The <code>git remote -v command</code> lists the URLs of the remote connections you have to other repositories.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="picture">
+                            <img src="./images/add origin.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="detail">
+                            <h3><b>Git Push</b></h3>
+                        </div>
+                        <ul>
+                            <li>To push the code to remote repository use <code>git push origin [branch name]</code></li>
+                            <li>After <code>git push origin main</code> terminal will get your github username and password</li>
+                            <li>And now if we go and check our repository page on GitHub it will have all the files or folders that we committed to our local repository</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="picture">
+                            <img src="./images/push.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- If we need pagination -->
             
         
             <!-- If we need navigation buttons -->
-          <!--  <div class="swiper-button-prev"></div>
-           <div class="swiper-button-next"></div>
-         -->
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+             <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
         </div>
     </body>
 </html>
